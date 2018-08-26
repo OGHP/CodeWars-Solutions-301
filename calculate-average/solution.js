@@ -5,3 +5,9 @@ function find_average(array) {
     //sum is divided by the array's length to get the average
     return sum / array.length;
 };
+
+// without comments:
+// function find_average(array) {
+//     const sum = array.reduce((a, b) => a + b, 0);
+//     return sum / array.length;
+// }
